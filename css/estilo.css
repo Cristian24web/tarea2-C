@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+
+}
+.a{
+    background-color: yellow;
+    width: 100px; 
+    height: 100px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    border-radius: 50px;
+}
+.ojoIzq{
+    background-color: aquamarine;
+    width: 13px; height: 13px;
+    position: absolute;/*para cajas hijos*/
+    top: 130px;
+    left: 130px;
+    border-radius: 50%;
+}
+.ojoDer{
+    background-color: aquamarine;
+    width: 13px; height: 13px;
+    position: absolute;/*para cajas hijos*/
+    top: 130px;
+    left: 160px;
+    border-radius: 50%;
+}
+.puntoDer{
+    background-color:black;
+    width: 5px; height: 5px;
+    position: absolute;/*para cajas hijos*/
+    top: 134px; /*y*/
+    left: 164px; /*x*/
+    border-radius: 50%;
+
+}
+.puntoIzq{
+    background-color:black;
+    width: 5px; height: 5px;
+    position: absolute;/*para cajas hijos*/
+    top: 134px; /*y*/
+    left: 134px; /*x*/
+    border-radius: 50%;
+}
+.d{
+    background-color: yellowgreen;
+    width: 100px; 
+    height: 100px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    border-radius: 50%;
+}
+.e{
+    background-color: navy;
+    width: 140px; 
+    height: 70px;
+    position: relative;
+    top: 100px;
+    left: 80px;
+    border-radius: 50%;
+}
+.nombre{
+    color: beige;
+    font-size: 8px; /*tamaño de letra*/
+    position: relative;
+    top: 15px;
+    left: 10px;
+
+
+}
+.nombre2{
+    color: beige;
+    font-size: 10px; /*tamaño de letra*/
+    position: relative;
+    top: 15px;
+    left: 10px;
+    border: 5px;
+    /*width: 150px;
+    height: 100px;*/
+
+}
+
+.manoIzq{
+    background-color: black;
+    width: 70px; 
+    height: 10px;
+    position: relative;
+    top: -75px; /*y*/
+    left: 50px; /*x*/
+    transform: rotate(30deg);
+}
+.manoDer{
+    background-color: black;
+    width: 70px; 
+    height: 10px;
+    position: relative;
+    top: -80px;
+    left: 185px;
+    transform: rotate(150deg);
+}
+.bolita1{
+    background-color: darkorange;
+    width: 8px; 
+    height: 12px;
+    position: relative;
+    top: -70px; /*y*/
+    left: 150px; /*x*/
+    border-radius: 50%;
+}
+.bolita2{
+    background-color: darkorange;
+    width: 8px; 
+    height: 12px;
+    position: relative;
+    top: -60px; /*y*/
+    left: 150px; /*x*/
+    border-radius: 50%;
+}
+.bolita3{
+    background-color: darkorange;
+    width: 8px; 
+    height: 12px;
+    position: relative;
+    top: -50px; /*y*/
+    left: 150px; /*x*/
+    border-radius: 50%;
+}
+.boca{
+    background-color: red;
+    width: 35px; 
+    height: 5px;
+    position: relative;
+    top: -160px; /*y*/
+    left: 135px; /*x*/
+
+}
+.sombrero{
+    background-color: blue;
+    width: 140px; 
+    height: 20px;
+    position: relative;
+    top: -247px; /*y*/
+    left: 86px; /*x*/
+    border-radius: 50%;
+
+}
+.puntaSombrero{
+    background-color: blue;
+    width: 50px; 
+    height: 25px;
+    position: relative;
+    top: -291px; /*y*/
+    left: 127px; /*x*/
+}
+.nariz{
+    position: relative;
+    top: -230px; /*y*/
+    left: 150px; /*x*/
+    width: 0px; 
+    height: 0px;
+    border-right: 30px solid transparent;
+    border-bottom: 10px solid red;
+}
